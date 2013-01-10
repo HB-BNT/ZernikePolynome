@@ -2,7 +2,12 @@
 <Project Type="Project" LVVersion="9008000">
 	<Property Name="NI.Project.Description" Type="Str">This project is used to develop a library providing VI to calculate Modified Zernike Polynomials.
 
-Copyright 2006 Brand New Technologies</Property>
+Copyright 2006 Brand New Technologies
+
+Dr. Holger Brand, Asternweg 12a, 64291 Darmstadt, Deutschland
+http://www.brandnewtechnologies.de
+
+Lizenziert unter EUPL V. 1.1</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="CCSymbols" Type="Str">OS,Win;CPU,x86;</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -15,6 +20,8 @@ Copyright 2006 Brand New Technologies</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Zernike Polynome.lvlib" Type="Library" URL="../Zernike Polynome.lvlib"/>
+		<Item Name="EUPL v.1.1 - Lizenz.pdf" Type="Document" URL="../EUPL v.1.1 - Lizenz.pdf"/>
+		<Item Name="EUPL v.1.1 - Lizenz.rtf" Type="Document" URL="../EUPL v.1.1 - Lizenz.rtf"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
